@@ -17,8 +17,8 @@ def vigenere_cipher(text, key, encrypt=True):
     return ''.join(result)
 
 # Test de vérification 
-message = "Hello, World!"  # Message original
-key = "SECRET"  # Clé de chiffrement
+message = "bonjour tous le monde "  
+key = "SECRET" 
 
 encrypted_message = vigenere_cipher(message, key, encrypt=True)
 decrypted_message = vigenere_cipher(encrypted_message, key, encrypt=False)
